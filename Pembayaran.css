@@ -1,0 +1,134 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #11101d;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+
+.logo-details {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 0 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo-details i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+.nav-links {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.nav-links li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #ffc107;
+}
+
+.nav-links li a .links_name {
+  margin-left: 15px;
+}
+
+.profile-details {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  padding: 20px;
+  background-color: #1d1b31;
+  text-align: center;
+}
+
+.admin_name {
+  color: #fff;
+  font-weight: 500;
+}
+
+.home-section {
+  position: relative;
+  margin-left: 250px;
+  padding: 50px;
+}
+
+.home-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-login {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-login label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form-login input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-simpan {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-simpan:hover {
+  background-color: #45a049;
+}
+
+/* Sidebar Button */
+.sidebar-button {
+  position: fixed;
+  left: 250px;
+  top: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  z-index: 999;
+}

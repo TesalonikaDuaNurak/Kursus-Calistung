@@ -1,0 +1,47 @@
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .course-list li {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-list li:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .course-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .course-list li::before {
+    content: "\2610";
+    color: #6c63ff;
+    margin-right: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  
+  .course-list li strong {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .course-list li span {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+  }
